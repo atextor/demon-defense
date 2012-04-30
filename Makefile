@@ -1,7 +1,7 @@
 GCC=gcc
 GCCFLAGS=-Iinclude -Wall -g -ansi -pedantic `sdl-config --cflags`
 LDFLAGS=-lSDL
-OBJS=main.o wadread.o simplegfx.o animation.o unit.o delay.o input.o tools.o
+OBJS=main.o wadread.o simplegfx.o animation.o unit.o delay.o input.o
 BINARY=defense
 
 default: all
