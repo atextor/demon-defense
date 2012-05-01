@@ -1,6 +1,6 @@
 GCC=gcc
 GCCFLAGS=-Iinclude -Wall -g -ansi -pedantic `sdl-config --cflags`
-LDFLAGS=-lSDL
+LDFLAGS=-lSDL -lm
 OBJS=main.o wadread.o simplegfx.o animation.o unit.o delay.o input.o
 BINARY=defense
 
